@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 별점 색상을 위한 스타일 추가 -->
+<resources>
+    <style name="RatingBar" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="colorControlNormal">#AAAAAA</item>
+        <item name="colorControlActivated">#FFD700</item>
+    </style>
+
+</resources>
