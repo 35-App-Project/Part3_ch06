@@ -60,11 +60,27 @@ dependencies {
     implementation("androidx.activity:activity-ktx:1.8.2")
 
     // Hilt
-    implementation("com.google.dagger:hilt-android:2.44.2")
-    kapt("com.google.dagger:hilt-compiler:2.44.2")
+    implementation("com.google.dagger:hilt-android:2.48.1")
+    kapt("com.google.dagger:hilt-compiler:2.48.1")
 
     // Coil
     implementation("io.coil-kt:coil:2.2.2")
+
+    // Retrofit2
+    implementation("com.squareup.okhttp3:okhttp:4.10.0")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
+
+    // Coroutine
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+
+    // Paging 3
+    implementation("androidx.paging:paging-runtime:3.2.1")
+
+    // ViewModel 을 편하게 쓰기 위해
+    implementation("androidx.activity:activity-ktx:1.8.2")
+
 
 }
 
